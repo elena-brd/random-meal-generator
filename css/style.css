@@ -13,12 +13,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
-
 }
 
 .greet-card {
+    margin: 1rem 0 1.5rem;
     text-align: center;
+}
+
+img {
+    width: 500px;
 }
 
 .btn {
@@ -29,4 +32,15 @@ body {
     color: #fff;
     padding: 0.7rem 2rem;
     border-radius: 5px;
+}
+
+#meal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.intros {
+    max-width: 600px;
 }
